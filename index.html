@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -12,25 +12,29 @@
 </head>
 
 <body>
+    <button class="theme-toggle" id="themeToggle">
+        <div class="theme-toggle-icon">
+        </div>
+        <div class="theme-toggle-circle"></div>
+    </button>
+    
     <h1>Привет</h1>
     <h2>Здесь ниже слайдер</h2>
-    <div class="swiper swiper-home">
-        <!-- Additional required wrapper -->
+    <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><div class="wrapper">Первый слайд</div></div>
-            <div class="swiper-slide"><div class="wrapper">Второй слайд</div></div>
-            <div class="swiper-slide"><div class="wrapper">Третий слайд</div></div>
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
